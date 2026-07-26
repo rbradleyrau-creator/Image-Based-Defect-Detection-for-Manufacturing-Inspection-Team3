@@ -24,14 +24,6 @@ allValFiles = [dsGoodValidation.Files; dsColorValidation.Files; dsLengthValidati
 allValLabels = [dsGoodValidation.Labels; dsColorValidation.Labels; dsLengthValidation.Labels; dsMalformedValidation.Labels];
 inclusiveValidationDS = imageDatastore(allValFiles, 'Labels', allValLabels);
 
-% Save the images used for testing
-outputFolder = sprintf("%s/testImages", pwd);
-% Deletes the pre-existing folder if one already exists
-if exist(outputFolder, "dir") 
-    rmdir(outputFolder, 's')
-end
-writeall(inclusiveValidationDS, outputFolder);
-
 % determine the number of classes that we have
 numClasses = numel(categories(inclusiveDS.Labels));
 fprintf("Detected %d classes to learn.\n", numClasses);
@@ -91,8 +83,22 @@ trainedNet = trainnet(augDsTrain, net, "crossentropy", options);
 % validation/testing
 save("tubeClassifierNet.mat", "trainedNet");
 
+% Save the images used for testing
+outputFolder = sprintf("%s/testImages", pwd);
+% Deletes the pre-existing folder if one already exists
+if exist(outputFolder, "dir") 
+    rmdir(outputFolder, 's')
+end
+writeall(inclusiveValidationDS, outputFolder);
+
 end
 
+% CHANGES 7/26/2026 2:50 PM (Ryan)
+% 
+% Added a testImages folder for the testing set. This allows the same set
+% to be used between different sessions. Moved the saving to the end to
+% prevent accidental overwriting
+% 
 % CHANGES 7/19/2026 11:06 PM (Isaac)
 %
 % Redeveloped test and validation datasets by creating them based on
