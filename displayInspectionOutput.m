@@ -1,6 +1,6 @@
 function displayInspectionOutput(originalImg, reportData)
 % colors
-grey = [0.12 0.12 0.12]
+grey = [0.12 0.12 0.12];
 
 % Create a figure sized moderately to render well in the Live Editor output
 fig = figure('Name', 'Inspection Results', 'Color', grey, ...
@@ -70,4 +70,5 @@ title(ax3, 'Object Detection', 'FontSize', 12);
 
 % Main Title
 title(t, 'Automated Tube Inspection Dashboard', 'FontSize', 18, 'FontWeight', 'bold');
+hold off;
 end
