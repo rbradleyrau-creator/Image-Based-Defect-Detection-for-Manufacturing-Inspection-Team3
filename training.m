@@ -1,17 +1,4 @@
-% CHANGES 7/19/2026 11:06 PM (Isaac)
-%
-% Redeveloped test and validation datasets by creating them based on
-% separate sub-datasets based on individual categories.
-% This was done to address the issue that there was roughly a 16% chance
-% that a given category of images would be excluded from either
-% train/validation dataset. This change creates more inclusive test and
-% validation datasets and said datasets are now incorporated into the
-% training model code.
-%
-% Added the new "inclusive" test Dataset as a function output for use in 
-% other parts of the overall program.
-
-function inclusiveValidationDS = training(ds)
+function training(ds)
 
 % Split the dataset into sub-datasets based on  category
 dsGood = subset(ds, ds.Labels == "good");
@@ -37,19 +24,15 @@ allValFiles = [dsGoodValidation.Files; dsColorValidation.Files; dsLengthValidati
 allValLabels = [dsGoodValidation.Labels; dsColorValidation.Labels; dsLengthValidation.Labels; dsMalformedValidation.Labels];
 inclusiveValidationDS = imageDatastore(allValFiles, 'Labels', allValLabels);
 
-% #FIXME: Test code
+% Save the images used for testing
 outputFolder = sprintf("%s/testImages", pwd);
-writeall(inclusiveValidationDS, outputFolder)
+% Deletes the pre-existing folder if one already exists
+if exist(outputFolder, "dir") 
+    rmdir(outputFolder, 's')
+end
+writeall(inclusiveValidationDS, outputFolder);
 
 % determine the number of classes that we have
-%TO-DO: Change the location of the anomalous images in the Tube sub dataset
-%       because the current program reads 5 categories to learn when in
-%       reality there is only 4 classifications.
-%       
-%       The problem is caused by the "anomalous" folder containing within
-%       it the three anomalous categories. We need to move the anomalous
-%       pictures to be in the same location as the "good" pictures are so
-%       that the script reads 4 categories of classification.
 numClasses = numel(categories(inclusiveDS.Labels));
 fprintf("Detected %d classes to learn.\n", numClasses);
 
@@ -108,12 +91,17 @@ trainedNet = trainnet(augDsTrain, net, "crossentropy", options);
 % validation/testing
 save("tubeClassifierNet.mat", "trainedNet");
 
-% TO-DO: Turn original dataset into sub datasets based on category (good,
-% malformed, length, color). Randomize each sub dataset to into test
-% datasets by randomizing each sub dataset to create test datasets based on
-% individual categories (good test dataset, malformed test dataset, length
-% test dataset, color test dataset). Finally, combine these test sub
-% datasets into one giant test dataset and then have the training function
-% output this giant test dataset. 
-
 end
+
+% CHANGES 7/19/2026 11:06 PM (Isaac)
+%
+% Redeveloped test and validation datasets by creating them based on
+% separate sub-datasets based on individual categories.
+% This was done to address the issue that there was roughly a 16% chance
+% that a given category of images would be excluded from either
+% train/validation dataset. This change creates more inclusive test and
+% validation datasets and said datasets are now incorporated into the
+% training model code.
+%
+% Added the new "inclusive" test Dataset as a function output for use in 
+% other parts of the overall program.

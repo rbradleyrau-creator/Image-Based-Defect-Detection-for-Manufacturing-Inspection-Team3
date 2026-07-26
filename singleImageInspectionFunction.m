@@ -16,7 +16,7 @@ function reportData = singleImageInspectionFunction(img, useClassifier)
         aiModel = loadedData.trainedNet;
         
         %define the classes/classifications here
-        classNames = ["color_mismatch", "defective_length", "good", "malformed_metal"];
+        classNames = ["colorMismatch", "defectiveLength", "good", "malformedMetal"];
     end
 
 

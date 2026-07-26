@@ -26,7 +26,7 @@ text(axText, 0.5, 0.85, reportData.Decision, 'FontSize', 40, ...
     'FontWeight', 'bold', 'Color', decisionColor, 'HorizontalAlignment', 'center');
 
 % AI Classification Text
-displayClass = strrep(string(reportData.AIClass), '_', ' '); 
+displayClass = string(reportData.AIClass); 
 aiClassText = sprintf('AI Classification:\n%s', displayClass);
 
 text(axText, 0.5, 0.65, aiClassText, 'FontSize', 14, 'FontWeight', 'bold', ...
@@ -70,5 +70,4 @@ title(ax3, 'Object Detection', 'FontSize', 12);
 
 % Main Title
 title(t, 'Automated Tube Inspection Dashboard', 'FontSize', 18, 'FontWeight', 'bold');
-figure;
 end
