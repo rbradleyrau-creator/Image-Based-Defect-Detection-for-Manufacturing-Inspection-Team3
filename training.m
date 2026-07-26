@@ -15,9 +15,9 @@ function inclusiveValidationDS = training(ds)
 
 % Split the dataset into sub-datasets based on  category
 dsGood = subset(ds, ds.Labels == "good");
-dsColor = subset(ds, ds.Labels == "color_mismatch");
-dsLength = subset(ds, ds.Labels == "defective_length");
-dsMalformed = subset(ds, ds.Labels == "malformed_metal");
+dsColor = subset(ds, ds.Labels == "colorMismatch");
+dsLength = subset(ds, ds.Labels == "defectiveLength");
+dsMalformed = subset(ds, ds.Labels == "malformedMetal");
 
 % Randomly split each sub-dataset into training and validation sets of data
 % 80/20 Split
@@ -36,6 +36,10 @@ inclusiveDS = imageDatastore(allTestFiles, 'Labels', allTestLabels);
 allValFiles = [dsGoodValidation.Files; dsColorValidation.Files; dsLengthValidation.Files; dsMalformedValidation.Files];
 allValLabels = [dsGoodValidation.Labels; dsColorValidation.Labels; dsLengthValidation.Labels; dsMalformedValidation.Labels];
 inclusiveValidationDS = imageDatastore(allValFiles, 'Labels', allValLabels);
+
+% #FIXME: Test code
+outputFolder = sprintf("%s/testImages", pwd);
+writeall(inclusiveValidationDS, outputFolder)
 
 % determine the number of classes that we have
 %TO-DO: Change the location of the anomalous images in the Tube sub dataset
