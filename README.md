@@ -21,6 +21,12 @@ The main files provides access to 3 features; training new models, performing ba
 
 To test that your setup is functioning correctly, scroll to the 'Single Image Inspection' section. Select 'Metal Defects', select image '1', turn off compareMasks, and click run. The output should match the following:
 
+<div align="center">
+  <div style="overflow-x: auto; gap: 10px; padding-bottom: 10px; white-space: nowrap; display: inline-block; margin-right: 10px;">
+    <img src="https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/images/InspectionResultsMetalDefect1.png" width="800" height="450" />
+  </div>
+</div>
+
 ## Results
 
 Below shows Batch Testing output for each of the four recommended settings
