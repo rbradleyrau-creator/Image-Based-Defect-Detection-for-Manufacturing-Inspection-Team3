@@ -26,7 +26,7 @@ To test that your setup is functioning correctly, scroll to the 'Single Image In
 Below shows Batch Testing output for each of the four recommended settings
 
 <details>
-    <summary><b>Normal | Click here to Output</b></summary>
+    <summary><b>Normal | Click here to see Output</b></summary>
     <br>
     <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_TopLayer.png" width="100%">
     <hr>
