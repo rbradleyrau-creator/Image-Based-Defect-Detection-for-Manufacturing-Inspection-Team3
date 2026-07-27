@@ -40,7 +40,7 @@ function reportData = singleImageInspectionFunction(img, useClassifier)
     if useClassifier
         % Preprocesses the image for resnet18 requirements (224 x 224 pixels)
         imgResized = imresize(img, [224 224]);
-    
+        
         % Make a prediction using the AI model with predict()
         % predict() will evaluate the image and output probability scores
         aiScores = predict(aiModel, single(imgResized));

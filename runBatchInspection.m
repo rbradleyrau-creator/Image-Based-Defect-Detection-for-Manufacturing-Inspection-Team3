@@ -30,9 +30,10 @@ function runBatchInspection(ds)
     cm.Title = 'Batch Test Confusion Matrix';
     % cm.RowDisplayLabels = {'Color Defect', 'Length Defect', 'Good', 'Metal Defect'};
     % cm.ColumnDisplayLabels = {'Color D.', 'Length D.', 'Good', 'Metal D.'};
-    labels = string(unique(trueLabels))
+    labels = string(unique(trueLabels));
     cm.RowDisplayLabels = labels;
     cm.ColumnDisplayLabels = labels;
+    cm.ColumnTickLabelRotation = 270;
     cm.RowSummary = 'row-normalized'; % Shows class-specific true positive rates
     
     % true = pass, false = fail
