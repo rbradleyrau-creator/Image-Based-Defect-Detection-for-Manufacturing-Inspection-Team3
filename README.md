@@ -6,6 +6,38 @@ The inspection pipeline was developed using images from the MPDD (Magnetic Parti
 
 ## Setup
 
+To begin, download the following files into the same directory:
+- data folder
+- The Tube classifier model (tubeClassifierNet.mat)
+- testImages folder (located inside the model folder)
+- Main program (tubeClassifierTrainAndTest.mlx)
+- ALL Matlab scripts inside the functions folder (located inside the programFiles folder)
+
+Then open up the main program and follow the instructions (or refer to the instructions below):
+
+## How to run
+
+The main files provides access to 3 features; training new models, performing batch testing, and performing tests on single images. If you downloaded the files in the models folder, there is no need to perform the testing function. To run a feature, press 'run' in its corresponding section. In addition, inputs to each feature can be adjusted in the section just below the run section. Image variations can be tested in the section located at the bottom of the live script.
+
+To test that your setup is functioning correctly, scroll to the 'Single Image Inspection' section. Select 'Metal Defects', select image '1', turn off compareMasks, and click run. The output should match the following:
+
 ## Results
 
+Below shows Batch Testing output for each of the four recommended settings
+
+<details>
+    <summary><b>Normal | Click here to see Output</b></summary>
+    <br>
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_TopLayer.png" width="100%">
+    <hr>
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_InLayer1.png" alt="SInner Layer 1" width="100%">
+    <hr>
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_InLayer2.png" alt="Inner Layer 2" width="100%">
+    <hr>
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_BottomLayer.png" alt="Bottom Layer" width="100%">
+  </details>
+</div>
+
 ## References
+
+[Resnet 18 documentation](https://www.mathworks.com/help/deeplearning/ref/resnet18.html)
