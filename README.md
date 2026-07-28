@@ -42,24 +42,24 @@ The below shows Batch Testing output for each of the four recommended settings:
 - Bright | Actual Yield: 68.9% | Predicted Yield 66.7% | Defect Rate: 31.1% | Escaped Defect Rate 0.0% <br>
 <div align="center">
   <div style="overflow-x: auto; gap: 10px; padding-bottom: 10px; white-space: nowrap; display: inline-block; margin-right: 10px;">
-    <img src="https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/images/BrightBatchTestFull.png" width="500" height="400" />
-    <img src="https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/images/BrightBatchTestPF.png" width="485" height="500" />
+    <img src="https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/images/BrightBatchTestFull.png" width="400" height="320" />
+    <img src="https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/images/BrightBatchTestPF.png" width="385" height="400" />
   </div>
 </div>
 
 - Blurry | Actual Yield: 68.9% | Predicted Yield 84.4% | Defect Rate: 31.1% | Escaped Defect Rate 7.0% <br>
 <div align="center">
   <div style="overflow-x: auto; gap: 10px; padding-bottom: 10px; white-space: nowrap; display: inline-block; margin-right: 10px;">
-    <img src="https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/images/BlurryBatchTestFull.png" width="500" height="400" />
-    <img src="https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/images/BlurryBatchTestPF.png" width="485" height="500" />
+    <img src="https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/images/BlurryBatchTestFull.png" width="400" height="320" />
+    <img src="https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/images/BlurryBatchTestPF.png" width="385" height="400" />
   </div>
 </div>
 
 - Noisy | Actual Yield: 68.9% | Predicted Yield 75.6% | Defect Rate: 31.1% | Escaped Defect Rate 3.0% <br>
 <div align="center">
   <div style="overflow-x: auto; gap: 10px; padding-bottom: 10px; white-space: nowrap; display: inline-block; margin-right: 10px;">
-    <img src="https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/images/NoisyBatchTestFull.png" width="500" height="400" />
-    <img src="https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/images/NoisyBatchTestPF.png" width="485" height="500" />
+    <img src="https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/images/NoisyBatchTestFull.png" width="400" height="320" />
+    <img src="https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/images/NoisyBatchTestPF.png" width="385" height="400" />
   </div>
 </div>
 
