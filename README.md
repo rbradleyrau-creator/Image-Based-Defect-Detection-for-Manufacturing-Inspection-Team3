@@ -34,8 +34,8 @@ The below shows Batch Testing output for each of the four recommended settings:
 - Normal | Actual Yield: 68.9% | Predicted Yield 68.9% | Defect Rate: 31.1% | Escaped Defect Rate 0.0% <br>
 <div align="center">
   <div style="overflow-x: auto; gap: 10px; padding-bottom: 10px; white-space: nowrap; display: inline-block; margin-right: 10px;">
-    <img src="https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/images/NormalBatchTestFull.png" width="500" height="400" />
-    <img src="https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/images/NormalBatchTestPF.png" width="485" height="500" />
+    <img src="https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/images/NormalBatchTestFull.png" width="400" height="320" />
+    <img src="https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/images/NormalBatchTestPF.png" width="385" height="400" />
   </div>
 </div>
 
