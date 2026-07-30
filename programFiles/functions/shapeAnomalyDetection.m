@@ -64,6 +64,9 @@ gs = im2gray(img);
     % 6) Eccentricity --> To  determine how "elongated" an object is. This
     %                     address cases where the tube is cut off (i.e. similar width but much shorter), and hence
     %                     significantly shorter than a standard size tube.
+    %
+    % 7) Perimeter --> Returns the exact Perimeter of a region
+    %
     shapeStats = regionprops(shapeMask, 'Centroid', 'MajorAxisLength', 'MinorAxisLength', 'Orientation', 'Area', 'Eccentricity', 'Perimeter');
     
     % Number each entry
