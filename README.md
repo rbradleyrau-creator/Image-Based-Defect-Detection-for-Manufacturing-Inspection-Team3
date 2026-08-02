@@ -31,7 +31,7 @@ Note: By pressing the arrow in the top right of output figure, the data can be e
 
 <div align="center">
   <div style="overflow-x: auto; gap: 10px; padding-bottom: 10px; white-space: nowrap; display: inline-block; margin-right: 10px;">
-    <img src="https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/images/tooltip1.png" width="600" height="250" />
+    <img src="https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/images/tooltip1.png" width="500" height="250" />
   </div>
 </div>
 
