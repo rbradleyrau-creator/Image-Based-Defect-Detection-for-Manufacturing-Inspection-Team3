@@ -29,6 +29,12 @@ To test that your setup is functioning correctly, scroll to the 'Single Image In
 
 Note: By pressing the arrow in the top right of output figure, the data can be expanded into its own pop-out window, allowing easier readability of the data. If the text does not appear, try changing your MATLAB instance to dark mode.
 
+<div align="center">
+  <div style="overflow-x: auto; gap: 10px; padding-bottom: 10px; white-space: nowrap; display: inline-block; margin-right: 10px;">
+    <img src="https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/images/tooltipOne.png" width="400" height="250" />
+  </div>
+</div>
+
 ## Results
 
 The below shows Batch Testing output for each of the four recommended settings:
