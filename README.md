@@ -27,6 +27,8 @@ To test that your setup is functioning correctly, scroll to the 'Single Image In
   </div>
 </div>
 
+Note: By pressing the arrow in the top right of output figure, the data can be expanded into its own pop-out window, allowing easier readability of the data. If the text does not appear, try changing your MATLAB instance to dark mode.
+
 ## Results
 
 The below shows Batch Testing output for each of the four recommended settings:
