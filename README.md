@@ -4,7 +4,7 @@ The objective of this project is to design an automated visual inspection pipeli
 
 The inspection pipeline was developed using images from the MPDD (Magnetic Particle Defect Detection) dataset and uses image preprocessing, segmentation, morphological operations, and geometric feature extraction to classify normal and defective parts.
 
-[Read More](https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/docs/Report.pdf)
+[Read More](https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/113f74ace00a9b5546de6d157b871debbd58d87b/docs/Metal%20Tube%20Defect%20Classification%20using%20Hybrid%20Image-Processing%20Techniques%20in%20MATLAB.pdf)
 
 ## Setup
 
