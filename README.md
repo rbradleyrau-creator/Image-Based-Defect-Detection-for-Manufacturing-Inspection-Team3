@@ -9,7 +9,7 @@ The inspection pipeline was developed using images from the MPDD (Magnetic Parti
 ## Setup
 
 To begin, download the following files into the same directory:
-- [data folder (located in current directory)](https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/tree/4be64918260c7e8da0d1360387ab3771cdafcfc4/data)
+- data folder (located in current directory)
 - [The Tube classifier model (tubeClassifierNet.mat)](https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/models/tubeClassifierNet.mat)
 - [testImages folder (located inside the model folder)](https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/tree/main/models)
 - [Main program (tubeClassifierTrainAndTest.mlx)](https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/programFiles/tubeClassifierTrainAndTest.mlx)
