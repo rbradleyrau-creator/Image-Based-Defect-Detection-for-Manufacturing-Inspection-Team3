@@ -30,7 +30,7 @@ displayClass = string(reportData.AIClass);
 aiClassText = sprintf('AI Classification:\n%s', displayClass);
 
 text(axText, 0.5, 0.65, aiClassText, 'FontSize', 14, 'FontWeight', 'bold', ...
-    'HorizontalAlignment', 'center');
+    'HorizontalAlignment', 'center', "Color", "w");
 
 % Vision Evidence Box 
 evidenceText = sprintf(['--- Vision Evidence ---\n', ...
@@ -44,7 +44,7 @@ evidenceText = sprintf(['--- Vision Evidence ---\n', ...
     reportData.metrics.ShapeAnomalies, reportData.metrics.ColorAnomalies);
 
 text(axText, 0.5, 0.25, evidenceText, 'FontSize', 12, 'HorizontalAlignment', 'center', ...
-    'BackgroundColor', grey, 'EdgeColor', 'black', 'Margin', 5);
+    'BackgroundColor', grey, 'EdgeColor', 'black', 'Margin', 5, "Color", "w");
 
 % =====================================================================
 % RIGHT SIDE (TOP ROW): ORIGINAL & MASK IMAGES
