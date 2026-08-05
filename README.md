@@ -1,8 +1,10 @@
 # Automated Visual Inspection System for Industry Defect Detection
 
-This objective of this project is to design an automated visual inspection pipeline in MATLAB to detect manufacturing defects in industrial components using classical computer vision techniques. The developed pipeline will accomplish this by using both classical and AI classification methods to measure and report evidence in the form of a Pass/Fail outcome alongside other significant metrics. The developed system identifies both color and shape anomalies in metal tubes using aforementioned methods.
+This objective of this project is to design an automated visual inspection pipeline in MATLAB to detect manufacturing defects in industrial components using classical computer vision techniques. The developed pipeline accomplishes this by using both classical and AI classification methods to measure and report evidence in the form of a Pass/Fail outcome alongside other significant metrics. The developed system identifies both color and shape anomalies in metal tubes using aforementioned methods.
 
 The inspection pipeline was developed using images from the MPDD (Magnetic Particle Defect Detection) dataset and uses image preprocessing, segmentation, morphological operations, and geometric feature extraction to classify normal and defective parts.
+
+[Read More](https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/docs/Report.pdf)
 
 ## Setup
 
