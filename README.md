@@ -7,11 +7,13 @@ The inspection pipeline was developed using images from the MPDD (Magnetic Parti
 ## Setup
 
 To begin, download the following files into the same directory:
-- data folder
-- The Tube classifier model (tubeClassifierNet.mat)
-- testImages folder (located inside the model folder)
-- Main program (tubeClassifierTrainAndTest.mlx)
-- ALL Matlab scripts inside the functions folder (located inside the programFiles folder)
+- data folder (located in current directory)
+- [The Tube classifier model (tubeClassifierNet.mat)](https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/models/tubeClassifierNet.mat)
+- [testImages folder (located inside the model folder)](https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/tree/main/models)
+- [Main program (tubeClassifierTrainAndTest.mlx)](https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/blob/main/programFiles/tubeClassifierTrainAndTest.mlx)
+- [ALL Matlab scripts inside the functions folder (located inside the programFiles folder)](https://github.com/rbradleyrau-creator/Image-Based-Defect-Detection-for-Manufacturing-Inspection-Team7/tree/main/programFiles/functions)
+
+Note: To avoid having to download files one by one, you can instead download the repository and extract only the files you need. This can be done by clicking the '<> Code' button located in the upper right region of the repository and then navigating to 'Download Zip'.
 
 Also, Download and install the following toolboxes:
 - [Computer Vision Toolbox](https://www.mathworks.com/products/computer-vision.html)
