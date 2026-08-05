@@ -13,6 +13,13 @@ To begin, download the following files into the same directory:
 - Main program (tubeClassifierTrainAndTest.mlx)
 - ALL Matlab scripts inside the functions folder (located inside the programFiles folder)
 
+Also, Download and install the following toolboxes:
+- Computer Vision Toolbox
+- Deep Learning Toolbox
+- Deep Learning Toolbox Model for Resnet18 Network
+- Image Processing Toolbox
+- Statistics and Machine Learning Toolbox
+
 Then open up the main program and follow the instructions (or refer to the instructions below):
 
 ## How to run
