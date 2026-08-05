@@ -1,4 +1,4 @@
-# Automated Visual Inspection System for Industry Defect Detection
+# Metal Tube Defect Classification using Hybrid Image-Processing Techniques in MATLAB
 
 The objective of this project is to design an automated visual inspection pipeline in MATLAB to detect manufacturing defects in industrial components using classical computer vision techniques. The developed pipeline accomplishes this by using both classical and AI classification methods to measure and report evidence in the form of a Pass/Fail outcome alongside other significant metrics. The developed system identifies both color and shape anomalies in metal tubes using aforementioned methods.
 
