@@ -14,11 +14,11 @@ To begin, download the following files into the same directory:
 - ALL Matlab scripts inside the functions folder (located inside the programFiles folder)
 
 Also, Download and install the following toolboxes:
-- Computer Vision Toolbox
-- Deep Learning Toolbox
-- Deep Learning Toolbox Model for Resnet18 Network
-- Image Processing Toolbox
-- Statistics and Machine Learning Toolbox
+- [Computer Vision Toolbox](url)
+- [Deep Learning Toolbox](https://www.mathworks.com/products/deep-learning/overview.html?adobe_mc_sdid=SDID%3D5D456B546B5AE5CB-09E2BBF1C9033B6F%7CMCORGID%3DB1441C8B533095C00A490D4D%40AdobeOrg%7CTS%3D1785963895&adobe_mc_ref=https%3A%2F%2Fwww.bing.com%2F)
+- [Deep Learning Toolbox Model for Resnet18 Network](https://www.mathworks.com/matlabcentral/fileexchange/68261-deep-learning-toolbox-model-for-resnet-18-network)
+- [Image Processing Toolbox](https://www.mathworks.com/products/image-processing/overview.html?adobe_mc_sdid=SDID%3D0D575A0B887F2903-31B3D4BAD3A66A88%7CMCORGID%3DB1441C8B533095C00A490D4D%40AdobeOrg%7CTS%3D1785964501&adobe_mc_ref=https%3A%2F%2Fwww.bing.com%2F)
+- [Statistics and Machine Learning Toolbox](https://www.mathworks.com/products/statistics.html)
 
 Then open up the main program and follow the instructions (or refer to the instructions below):
 
